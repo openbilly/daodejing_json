@@ -30,7 +30,7 @@ print(book3.get("dynasty"))
 """
 
 for book in books:
-    x = 1 #要输了第x章
+    x = 1 #要输出第x章
     select_book = "道德經學錄"
     if book.get('name') == select_book :
         print(book.get('name'))
